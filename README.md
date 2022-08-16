@@ -1,4 +1,7 @@
 # CryptoChart
+
+## A web app built using React.js, TypeScript and Pure CSS, showcasing the value, change in 24hrs of some top cryptocurrencies in a beautiful UI, integrated with the CoinGecko API to obtain real-time values for those crypto.
+
 <img src="CryptoCharts.PNG"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
