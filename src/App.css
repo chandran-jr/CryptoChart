@@ -1,0 +1,45 @@
+
+
+.Trending {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 55px;
+}
+
+.TrendingIcon{
+border: 1.5px solid #DC1FFF;
+border-radius: 20%;
+height: 8px;
+width: 8px;
+margin-right: 20px;
+display:grid;
+position: relative;
+place-items: center;
+
+}
+
+.TrendingIcon > .MuiSvgIcon-root {
+  color: #DC1FFF;
+  height: 10px;
+  width: auto;
+  position: absolute;
+}
+
+.TrendingText {
+  color: #ECF0FF;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-evenly;
+}

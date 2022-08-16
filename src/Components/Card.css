@@ -1,0 +1,90 @@
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.Coin {
+    width: 49.83px;
+    height: 49.84px;
+}
+
+.Circle__Outer {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: -8px;
+    border-radius: 60%;
+    background-color: #14172B;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+
+.Circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;;
+    backdrop-filter: blur(100px);
+    display: grid;
+    place-items: center;
+}
+
+.Container {
+    height: 350.08px;
+    width: 290.74px;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+    backdrop-filter: blur(100px);
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PriceContainer {
+    background-color: #14172B;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    border-radius: 17px;
+    margin-top: 5px;
+}
+
+.Price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ECF0FF;
+    opacity: 0.9;
+    letter-spacing: 1.5px;
+}
+
+.PLContainer {
+    position: absolute;
+    left: 210px;
+}
+
+.PopularContainer {
+    background-color: #14172B;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121.75px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.ppImage {
+    height: 22px;
+    width: 22px;
+}
